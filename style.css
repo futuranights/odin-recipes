@@ -1,7 +1,13 @@
+body{
+    background-color: beige;
+    border: 1px black;
+    margin: auto;
+}
+
 .title{
     background-color: black;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
     font-size: 24px;
     text-align: center;
 }
@@ -9,4 +15,16 @@
     width: 500px;
     height: auto;
     object-position: center;
+}
+h2{
+    text-align: center;
+}
+.ingredients{
+    list-style: circle;
+    background-color: white;
+    margin: auto;
+}
+.steps{
+    list-style: decimal;
+    background-color: white;
 }
